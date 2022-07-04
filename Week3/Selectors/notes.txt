@@ -11,6 +11,8 @@ Combinators Selectors:(relationship between the elements)
     -General siblings Selectors- selects all elements that are next siblings of a specified element (~)
     -Adjacent siblings Selectors- The + selector is used to select an element that is directly after another specific element.</p>
 The following example selects the first p element that are placed immediately after div 
+Attribute Selectors:
+     The attribute selector of CSS is a particular type of selector that is implemented to select the HTML elements with a specific attribute and/or attribute(s) having any specified value associated with it.
 Pseudo Selectors:
 -Style an element when a user mouses over it
 -Style visited and unvisited links differently
