@@ -1,0 +1,72 @@
+div.translate{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  /* transform: perspective(400px) translatez(-200px); */
+  /* transform: perspective(400px) translatex(200px); */
+  transform: perspective(400px) translatey(200px);
+}
+div.rotate{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    /* transform: perspective(400px) rotatez(45deg); */
+    /* transform: perspective(400px) rotatex(45deg);  */
+    transform: perspective(400px) rotatey(45deg); 
+}
+div.rotate{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    /* transform: perspective(400px) scalex(10); normal width *scale value */
+    /* transform: perspective(400px) scaley(3); normal width *scale value */
+}
+div.skew{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    /* transform: perspective(400px) skewX(45deg); */
+    transform: perspective(400px) skewY(45deg);
+}
+div.firstorigin{
+    width: 100px;
+    height: 100px;
+    background-color:palevioletred;
+    margin-bottom: 20px;
+    transform-origin: 50% 50% 0px;
+    transform: perspective(400px) rotatez(45deg);
+}
+
+div.secondorigin{
+    width: 100px;
+    height: 100px;
+    background-color:palevioletred;
+    margin-bottom: 20px;
+    transform-origin: left top 0px;
+    transform: perspective(400px) rotatez(45deg);
+}
+
+div.thirdorigin{
+    width: 100px;
+    height: 100px;
+    background-color:palevioletred;
+    transform-origin: right bottom  0px;
+    transform: perspective(400px) rotatez(45deg);
+}
+
+div.firsttransition{
+    width: 100px;
+    height: 100px;
+    background-color:powderblue;
+    transform: rotatez(0deg);
+    transition-property: transform;
+    transition-duration: 2s;
+    /* transition-timing-function: ease-in ; */
+    /* transition-timing-function: ease-out */
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s;
+
+}
+div.firsttransition:hover{
+    transform: rotatez(90deg);
+}

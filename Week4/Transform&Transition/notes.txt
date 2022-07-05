@@ -1,0 +1,10 @@
+Transformproperty:
+   -Transform an html element
+   -Transform means rotate(changing orientation,px),scale(changing size,degree),scew(changing slant,number),translate(changing postion of html element)
+   -one or two Transform + persecpative(depth z in pixels)
+origin:
+   -set the pivot(center) postion of an html element
+   - x offset(px,%,left,center,right) ,y offset(px,%,top,center,bottom) z pixels
+Transition:
+  -change the state of the html element smoothly
+  -property,duration,delay,timing function (ease in start slow end fast, ease out start fast end slow, ease in out slow fast slow)

@@ -1,0 +1,112 @@
+div.wrapper{
+    border: 2px solid red;
+    height: 200px;
+}
+div.inside{
+    position: relative;
+    border: 2px solid blue;
+    height:100px;
+    width:100px;
+    /* left:200px; */
+    /* right:50px; */
+    /* bottom: 50px; */
+    top:50px;
+}
+/* Absolute */
+div.div1{
+    border: 2px solid blue;
+    height:100px;
+    width:100px;
+    position: absolute;
+    right:0px
+}
+div.parentdiv{
+    border: 2px solid red;
+    height: 200px;
+  
+}
+div.grandparent{
+    height: 200px;
+    padding: 100px;
+    border:3px dotted chartreuse;
+    position: relative;
+}
+/* fixed */
+div.wrap{
+    min-height: 200px;
+    background-color: lightgreen;
+}
+
+div.nav{
+    height: 50px;
+    background-color: black;
+    color: white;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%
+}
+
+div.content{
+    background-color: orange;
+    padding-top: 50px;
+}
+
+div.query{
+    background-color: bisque;
+    position:fixed;
+    right:0px;
+    bottom:0px
+}
+
+/* sticky */
+div.stick{
+    min-height: 200px;
+    background-color: chartreuse;
+}
+div.header{
+    min-height: 100px;
+    background-color: orange;
+
+}
+div.navbar{
+    min-height: 50px;
+    background-color: palevioletred;
+    position: sticky;
+    top:0px
+}
+
+/* z-index */
+div.zparent{
+    min-height: 200px;
+    background-color: powderblue;
+    padding: 10px;
+    position: relative;
+}
+div.reddiv{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 3;
+}
+div.greendiv{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    position: absolute;
+    top:20px;
+    left: 20px;
+    z-index: 2;
+}
+div.bluediv{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    position: absolute;
+    top:40px;
+    left: 40px;
+    z-index: 1;
+}

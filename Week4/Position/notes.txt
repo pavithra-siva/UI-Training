@@ -1,0 +1,20 @@
+Postion the html element in html document
+Values: static,fixed,relative,sticky,absolute,z-index
+while using Postioning property we take help of left,right,bottom,top and z-index properties
+static:
+  -html element are displayed as they appear in the normal document flow(left to right, top to bottom , block , inline) 
+  -by default html Postion property is set to be static (p,h,div,span,body)
+  -static element cannot moved
+  -static element not affected by top,left,right,bottom and z-index property
+relative:
+  -html element relative to its normal Postion
+  -this property is affected by top,left,right,bottom and z-index property
+absolute:
+  -position an html element relative to the edges of its first position ancenstor or relative to the edges of browser viewport
+fixed:
+  -pin and fix the position of an html elemenent relaative to the edge of the browser viewport
+sticky:
+  -postion and stick an html element top to the edge of the browser viewport
+z-index:
+  -displaying the order of overlapping the html element
+  -an html element have lower index is displayed behind an html element with higher index value
