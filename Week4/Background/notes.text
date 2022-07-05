@@ -1,0 +1,27 @@
+Background size:
+    -Specify the background image size(meaning height and width)
+    -value : x size length y size length/ x % auto / cover / contain
+    -cover tells the browser to make sure the image always covers the entire container, even if it has to stretch the image or cut a little bit off one of the edges. contain, on the other hand, says to always show the whole image, even if that leaves a little space to the sides or bottom.
+    _image has larger width and height than browser size that time image stretch so we use background size cover
+    -The default keyword — auto — tells the browser to automatically calculate the size based on the actual size of the image and the aspect ratio.
+Background -repeat:
+     -value : repeat/no repeat/repeat-x/repeat-y
+Background -color:
+     -background color of a html element
+      -value :color/hex color value (6 digits -two digits for red, two for green,two for blue/rgb/rgba(0-255,0-255,0-255,0-1(for transparency)/transparent
+Background -attachment:
+      -used to Specify how the background image is to be attached to the wall of a page
+      -value -scroll(default)/fixed
+Background -position:
+      -where the background image to be positioned in html element box
+      -value :top left | top center | top right | center left | center center | center right 
+| bottom left | bottom center | bottom right | x-% y-% | x-pos y-po
+Background -origin:
+      -background image origin (placement box)
+      -value : content box/padding box(default)/border box
+Background -clip:
+      -background clipping (trim)(image and color)
+      --value : content box/padding box(default)
+      
+
+
