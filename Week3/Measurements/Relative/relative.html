@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>All Relative Units</title>
+    <link rel="stylesheet" type="text/css" href="relative.css">
+</head>
+
+<body>
+    <p>Mine is the default font size (16px).</p>
+    <div class="relativeUnits">
+        <p>Mine is 200% of the default font size</p>
+    </div>
+    <p>Mine is the default font size (16px).</p>
+    <div class="relativeUnits">
+        <p>Mine is 2em of the default font size</p>
+    </div>
+    <!-- Both % and em are inherited as they are RELATIVE TO THEIR PARENT! So, if we put parent font size as 2em then again we put child font size as 2em it would be added up to 4em (i.e 400% of the default value)! This might cause issues in the case of large CSS codes. -->
+    <p>My font size is set to 40px.</p>
+    <div class="relativeUnits">
+        <p>I have a font size of 2rem</p>
+    </div>
+    <!-- In this CSS code, the font-size of the div is set to 2rem (i.e twice the base font size ignoring all changes) and thus is (2 x 16px=) 32px. It ignores the change in font size of 40px made to its parent (here, the body). -->
+    <div class="relativeUnits">
+        <p>My font size is set to 2ch</p>
+    </div>
+    <div class="vhvw">Example for view height and view width</div>
+    <div class="vminvmax">Example for vmin and vmax</div>
+
+</body>
+
+</html>

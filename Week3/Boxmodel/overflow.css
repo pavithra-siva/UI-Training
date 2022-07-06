@@ -1,0 +1,8 @@
+#wrapper{
+    width:95%;
+    max-width: 1200px;
+    height: 280%;
+    background-color: greenyellow;
+    overflow-x: hidden;
+    overflow-y: hidden;
+ }

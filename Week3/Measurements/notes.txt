@@ -1,0 +1,26 @@
+Absolute units:(px,cm,mm,in,pc,pt)
+The absolute units always indicate a fixed length, while with the relative units the length is always calculated in relation to other elements.
+-px stands for Pixel. Pixels can be defined as 1/96th part of an inch.
+-pt stands for point. 1 CSS pt is defined as 1/72th of an inch
+-pc stands for pica or picas. 1 CSS pt is defined as 1/6th of an inch.
+-cm centimeters
+-mm stands for millimeter.
+-in stands for inch.
+Relative units:(rem,em,%,ex,vh,vw,vmin,vmax)
+-% This is the percentage unit. The measurement of the element is relative to the dimensions of the parent. Like if we set the width of an HTML element to be K% then its width is calculated as follows:
+-1em refers to the default size of the property. So precisely, 1em is equivalent to 100%. (i.e 1em in case of plain text would be 16px if the root value is unaltered)
+-rem rather stands for Root em.
+This means the browser will ignore all the adjustments made to the parent elements and will scale the HTML element, to which the property is applied, based on the root/default value for that particular element.
+-ch This unit sizes relative to the width of the digit ‘0’ as in parent. For plain text 1ch=8px (this is only true if the font-size of the parent element is unchanged from the default value of 16px.);
+-vh This stands for view height. If we want our element to have exactly the same height as your viewport/ view window then use 100vh to denote that.
+-vw stands for View Width. 100vw means 100% the width of the viewport/view window.
+-Cmin 100vmin means the element changes are relative to 100% of the smaller dimension of the viewport (i.e 100% of the minimum of view height and view width).
+-Cmax 100vmax means the element changes are relative to 100% of the larger dimension of the viewport (i.e 100% of maximum of the view height and the view width).
+-Relative to the height of the letter ‘x’, 1ex would be equal to the length from the base of the letter ‘x’ to the intersection point.
+
+
+
+
+
+
+

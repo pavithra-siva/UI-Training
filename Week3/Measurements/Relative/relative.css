@@ -1,0 +1,30 @@
+.relativeUnitsper {
+    font-size: 200%;
+}
+
+/* The above CSS code changes the size of the font inside a div is exactly 32px which is twice relative to the parent (i.e body). The default font size of plain text is 16px. */
+.relativeUnitsem {
+    font-size: 2em;
+}
+
+.relativeUnitsrem {
+    font-size: 2rem;
+}
+
+.relativeUnitch {
+    font-size: 2ch;
+}
+.vhvw {
+text-align: center;
+height: 100vh;
+width: 50vw;
+background-color: yellowgreen;
+font-size: 2rem;
+}
+.vminvmax {
+text-align: center;
+height: 70vmax;
+width: 50vmin;
+background-color: yellowgreen;
+font-size: 2rem;
+}
