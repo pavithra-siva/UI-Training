@@ -1,0 +1,10 @@
+.tab div {
+    display: none;
+}
+.tab div:target {
+    display: block;
+    color: white;
+    background: green;
+    padding: 5px;
+    margin: 20px 5px;
+}
